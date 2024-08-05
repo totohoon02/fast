@@ -6,12 +6,16 @@ _creatures = [
     Creature(
         name="Cloud Days",
         country="FR",
-        description="맑음"
+        area="home",
+        description="맑음",
+        aka="homme"
     ),
     Creature(
         name="Noad Shipper",
         country="DE",
-        description="비오는날좋음"
+        area="home",
+        description="비오는날좋음",
+        aka="homme"
     ),
 ]
 
@@ -27,5 +31,3 @@ def get_one(name: str) -> Creature:
             return _creature
 
     return None
-
-
